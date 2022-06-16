@@ -18,13 +18,13 @@ export default class App extends Component {
         <main style={{ paddingTop: '120px' }}>
           <Switch>
             <Route path='/home' component={Home} />
-            <Route path='/about' component={About} />
+            {/* <Route path='/about' component={About} /> */}
             <Route path='/comics' component={Comics} />
             <Route path='/shop' component={Shop} />
             <Redirect to='/home' />
           </Switch>
         </main>
-        <Footer />
+        {/* <Footer /> */}
     </section>
     )
   }

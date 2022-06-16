@@ -48,9 +48,9 @@ class Header extends Component {
                     </Col>
                     <Col flex={1}>
                     </Col>
-                    <Col>
+                    {/* <Col>
                 <NavLink to='/about'>About</NavLink> 
-                    </Col>
+                    </Col> */}
                     <Col>
                 <NavLink to='/comics'>Comics</NavLink>
                 </Col>
